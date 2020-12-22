@@ -85,6 +85,7 @@ a.fancy-link:link, a.fancy-link:visited {
     padding-bottom: 3px;
     color: #000;
     border-bottom: solid 2px #000;
+    transition: all 0.2s linear;
     
  } 
  
@@ -95,7 +96,6 @@ a.fancy-link:link, a.fancy-link:visited {
     padding-bottom: 3px;
     color: blue;
    border-bottom: solid 2px blue;
-   transition: all 0.2s linear;
 
  }
 
