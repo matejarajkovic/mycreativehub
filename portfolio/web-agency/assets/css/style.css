@@ -36,7 +36,7 @@ body {
 @media all and (min-width:768px) { 
 	.container-flexbox.hero-block .item-col-2 { 
 		width: 45%;
-		padding: 1% 0 1% 0;
+		padding: 7% 0 1% 0;
     }
     .container-flexbox.hero-block .item-col-2:nth-child(1) { 
         display: flex;
@@ -53,7 +53,7 @@ body {
 		padding: 1% 5% 3% 5%;
 	}
 	.container-flexbox.hero-block .item-col-2:nth-child(1) { order: 2 }
-	.container-flexbox.hero-block .item-col-2:nth-child(2) { order: 1 }
+	.container-flexbox.hero-block .item-col-2:nth-child(2) { order: 1; padding-top: 12% }
 }
 
 
