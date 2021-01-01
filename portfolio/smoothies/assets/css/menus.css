@@ -33,7 +33,7 @@
 }
 
 /* sticks menu to top of desktop and/or mobile screen */
-.menu-sticky { position: fixed; top: 0; left: 0; right: 0; }
+.menu-sticky { position: fixed; top: 0; left: 0; right: 0; scroll-behavior: smooth; scroll-padding-top: 72px }
 
 /* prevents content from disappearing under sticky menus */
 .sticky-anchor {
