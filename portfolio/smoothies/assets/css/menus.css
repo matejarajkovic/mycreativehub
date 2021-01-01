@@ -157,10 +157,10 @@
 
 /* container div for flyout menu content */
 .flyout-menu { 
-    position: absolute; display: block; 
+    position: fixed; display: block; 
     top: 72px; /* same height as menu bar */
     width: 320px; 
-    max-height: 300px;
+    max-height: 100px;
     height: 100%;
     padding: 30px 40px 40px 40px;
     transition: 0.5s;
