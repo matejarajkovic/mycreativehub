@@ -3,7 +3,7 @@
 html { height: 100% }
 body { min-height: 100%; max-width: 1600px; margin-left: auto; margin-right: auto }  
 img { width: 100%; height: auto; display: block }
-html { scroll-behavior: smooth }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 
 /* ======================================== FONT ============================== */
 body { font-family: 'Roboto', sans-serif }
@@ -48,7 +48,7 @@ body { font-family: 'Roboto', sans-serif }
 @media (min-width:768px) { 
 	.container-flexbox .item-col-2 { 
 		width: 45%;
-		padding: 3% 0 0 0 ;
+		padding: 8% 0 0 0 ;
 	}
 }
 
@@ -60,8 +60,8 @@ body { font-family: 'Roboto', sans-serif }
 		padding: 10%;
 	}
 
-.container-flexbox .item-col-2:nth-child(1) { order: 2 }
-.container-flexbox .item-col-2:nth-last-child(2) { order: 1 }
+.container-flexbox .item-col-2:nth-child(1) { order: 2; padding-bottom: 2% }
+.container-flexbox .item-col-2:nth-last-child(2) { order: 1; padding-top: 30% }
 }
 
 /* === FLEXBOX ITEM COLUMNS: 3 COLUMNS ON DESKTOPS, 1 COLUMN ON MOBILES === */
