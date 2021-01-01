@@ -55,20 +55,20 @@ body { background-color: #eff8f5 }
 
 /* Desktop - block height, text width and h1 bottom margin */
 @media (min-width:768px) { 
-	.container-hero-block { height: 520px }
+	.container-hero-block { height: 560px }
 	.container-hero-block h1, .container-hero-block h2 { 
 		width: 60%; 
 	}
-	.container-hero-block h1 { margin-bottom: 3% }
+	.container-hero-block h1 { margin-top: 4%; margin-bottom: 3% }
 }
 
 /* Mobiles - block height, text width and h1 bottom margin */
 @media (max-width:767px) { 
-	.container-hero-block { height: 360px }
+	.container-hero-block { height: 420px }
 	.container-hero-block h1, .container-hero-block h2  { 
 		width: 90%; 
 	}
-	.container-hero-block h1 { margin-bottom: 5% }
+	.container-hero-block h1 { margin-top: 18%; margin-bottom: 5% }
 }
 
 
