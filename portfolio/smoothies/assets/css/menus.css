@@ -73,7 +73,7 @@
 .flyout-menu            ul li a { text-decoration: none }
 
 /* make desktop menu options bold */
-.container-menu-desktop ul li a { font-weight: bold }
+.container-menu-desktop ul li a { font-weight:bold }
 
 /* style cta button on desktop and mobile menus */
 .container-menu-desktop ul li a.btn-cta,
@@ -159,11 +159,12 @@
 .flyout-menu { 
     position: fixed; display: block; 
     top: 72px; /* same height as menu bar */
-    width: 100%; 
-    max-height: 200px;
-    height: 200px;
+    width: 320px; 
+    max-height: 300px;
+    height: 100%;
     padding: 30px 40px 40px 40px;
     transition: 0.5s;
+    overflow-x: hidden;
     overflow-y: scroll;
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch; /* safari on mobiles */    
