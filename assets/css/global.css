@@ -391,7 +391,8 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-hero-block.home-page {
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url('../img/hero-home-background.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url('../img/hero-home-background.mp4');
+    
 }
 
 .container-hero-block.portfolio-page {
