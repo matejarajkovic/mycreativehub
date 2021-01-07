@@ -302,7 +302,7 @@
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color: #fff }	
+.menu-light .item-icon .bar3 { background-color: #d1274b }
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color: #d1274b }
@@ -430,7 +430,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 /* colour of hamburger icon bars */
 .menu-transparent .item-icon .bar1, 
 .menu-transparent .item-icon .bar2, 
-.menu-transparent .item-icon .bar3 { background-color: #d1274b }
+.menu-transparent .item-icon .bar3 { background-color: #fff }
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color: #fff }

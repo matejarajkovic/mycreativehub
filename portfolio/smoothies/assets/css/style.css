@@ -120,9 +120,9 @@ p {
 .bg-blueberry h3 { color: #fff }
 .bg-blueberry p { color: #fff }
 
-/*Centre-align sub-headings and paragraphs on mobiles */
-@media all and (max-width:767px) { 
-	h3, p { text-align: center } 
+/* Centre-align sub-headings and paragraphs on mobiles */
+   @media all and (max-width:767px) {
+	h3, h4, p { text-align: center }
 }
 
 	/* Mobiles: Re-order columns inside first and third flexbox parent containers */ 
