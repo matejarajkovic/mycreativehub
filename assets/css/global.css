@@ -5,8 +5,8 @@ body { min-height: 100%; max-width: 1600px; margin-left: auto; margin-right: aut
 img { width: 100%; height: auto; display: block }
 
 /* Default font and colours */
-body { font-family: 'Pacifico', cursive;; background-color: #0f2456 }
-h1, h2, h3 { color: #4799eb; font-family: 'Shadows Into Light Two', cursive;}
+body { font-family: 'Pacifico', cursive;; background-color: #0f2456; }
+h1, h2, h3 { color:#00CED1; font-family: 'Shadows Into Light Two', cursive;}
 p, li { color: #fff; font-family: 'Shadows Into Light Two', cursive; }
 
 /* Begin menu styles */
@@ -252,7 +252,7 @@ p, li { color: #fff; font-family: 'Shadows Into Light Two', cursive; }
 
 /* background colour */
 .menu-light { 
-	background-color: #4799eb;
+	background-color: #fff;
 	transition: all .5s ease-in-out;
 }
 
@@ -270,7 +270,7 @@ p, li { color: #fff; font-family: 'Shadows Into Light Two', cursive; }
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
     color: #0f2456;
-    border-color:#0f2456
+    border-color:#0f2456;
 }
 
 .menu-light ul li a.btn-cta:hover,
@@ -411,7 +411,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-hero-block h1 { 
-	color: #008B8B;
+	color: #00CED1;
 	font-size: calc(42px + (102 - 42) * ((100vw - 320px)/(1600 - 320)))
 }
 
@@ -493,14 +493,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    background-image: linear-gradient(to right, #3498db, #2980b9);
+    background-image: linear-gradient(to right, #00CED1, #00CED1);
     color: #fff;
 } 
  
 a.button-solid:hover, .button-solid:active {
-    border-color: #3867d6;
-    background-image: linear-gradient(to right, #3742fa, #3742fa);
-   color: #fff 
+    border-color: #0f2456;
+    background-image: linear-gradient(to right, #0f2456, #0f2456);
+   color: #fff; 
 }
  
 a.button-round { border-radius: 50px }
@@ -522,7 +522,7 @@ a.fancy-link:hover, a.fancy-link:active {
     padding-bottom: 2px;
 }
 
-a.fancy-link:link, a.fancy-link:visited { color:#33adff; border-bottom-color:#33adff }
+a.fancy-link:link, a.fancy-link:visited { color: #00CED1; border-bottom-color: #00CED1; }
 
 a.fancy-link:hover, a.fancy-link:active { color: #fff; border-bottom-color: #fff }
 
@@ -665,7 +665,7 @@ img.image-circle {
 /* All screens */
 .container-contact-form { 
 	text-align: center; 
-	background-color: #4799eb; 
+	background-color: #00CED1; 
 }
 
 /* Desktop */
@@ -689,7 +689,7 @@ img.image-circle {
 /* Heading */
 .container-contact-form h3 { 
 	font-weight: bold; 
-	color: #0c2461;
+	color: #000000;
 	line-height: 1.2;
 	margin-bottom: 3%;
 	font-size: calc(30px + (64 - 30) * ((100vw - 320px) / (1600 - 320))); 
@@ -775,8 +775,8 @@ img.image-circle {
 
 #contact-form #btn-submit:hover, 
 #contact-form #btn-submit:active { 
-    background-color: #403d50;
-    color: #fff
+    background-color: #1E90FF;
+    color: #000000;
 }
 
 #contact-form #btn-submit i.fas {
@@ -795,7 +795,7 @@ img.image-circle {
 .container-footer { 
     text-align: center;
     color:#fff;
-    background-color:rgb(36,64,84);
+    background-color:#fff;
 }
 
 /* Desktop footer - inside padding  */
@@ -816,13 +816,14 @@ img.image-circle {
 .container-footer ul li a,
 .container-footer p,
 .container-footer p a {
-   color: #fff
+   color: #0f2456;
 }
 
 /* Footer headings */
 .container-footer h4 {
     font-family: 'Shadows Into Light Two', cursive;
    font-weight: normal;
+   font-style: bold;
    font-size: calc(26px + (48 - 26) * ((100vw - 320px)/(1600 - 320)));
    margin: 0 auto 16px 0;
 }
@@ -830,8 +831,8 @@ img.image-circle {
 .container-footer h5 {
     font-family: 'Shadows Into Light Two', cursive;
     font-weight: normal;
-    font-style:  italic;
-    color: #33adff;
+    font-style:  bold;
+    color: #0f2456; 
     margin: 0 auto 36px auto;
     font-size: calc(20px + (32 - 20) * ((100vw - 320px)/(1600 - 320)));
 }
@@ -877,7 +878,7 @@ img.image-circle {
 
 .container-footer ul.footer-links li a:hover, 
 .container-footer ul.footer-links li a:active  {
-   border-bottom-color: #33adff;
+   border-bottom-color: #00CED1;
 }
 
 /* Footer icons */
@@ -888,7 +889,7 @@ img.image-circle {
 
 .container-footer ul.footer-icons li a:hover, 
 .container-footer ul.footer-icons li a:active  {
-   color: #33adff
+   color: #00CED1;
 }
 
 /* Privacy and legal link */
@@ -913,7 +914,7 @@ img.image-circle {
 a.privacy-legal {
     font-family: 'Shadows Into Light Two', cursive; 
     display: inline-block;
-    color:#fff;
+    color: #000000;
     text-decoration: none;
     border-bottom-style: solid;
     border-bottom-width: 2px;
