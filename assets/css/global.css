@@ -416,7 +416,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-hero-block h2 {
-	color:  #4799eb;
+	color: #000000;
 	line-height: 1.5;
 	font-size: calc(32px + (64 - 32) * ((100vw - 320px)/(1600 - 320)));
 }
