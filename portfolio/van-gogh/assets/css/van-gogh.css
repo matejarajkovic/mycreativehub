@@ -284,8 +284,8 @@ img { width: 100%; height: auto; display: block }
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
-    color: #3434b0;
-    border-color:#3434b0
+    color: rgb(36,64,84);
+    border-color: rgb(36,64,84);
 }
 
 .menu-light ul li a.btn-cta:hover,
