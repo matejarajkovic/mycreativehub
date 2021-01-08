@@ -11,9 +11,9 @@
 /* Positions all menus in front of page content */
 .container-menu-desktop, 
 .container-menu-bar-mobile, 
-.flyout-menu { z-index: 999; font-family: sans-serif; }
+.flyout-menu { z-index: 999; font-family: 'Neucha', sans-serif; }
 .container-menu-desktop, 
-.container-menu-bar-mobile { width:100%; font-family: sans-serif; }
+.container-menu-bar-mobile { width:100%; font-family: 'Neucha', sans-serif; }
 
 /* on mobiles - hide desktop menu */
 @media all and (max-width:767px) { 
