@@ -400,7 +400,8 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-hero-block.contact-page {
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url('../img/hero-contact-background.jpg')
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url('../img/hero-contact-video.mp4');
+
 }
 
 .container-hero-block h1, .container-hero-block h2 {
@@ -440,6 +441,43 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	.container-hero-block h1 { margin-top: 18%; margin-bottom: 5% }
 }
 
+/* ==== Hero block general properties ==== */
+
+.container-hero-block { text-align: center; position: relative; overflow: hidden }
+
+.container-hero-block .background-video-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    height: 500px;
+}
+
+.container-hero-block .background-video { 
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.container-hero-block .bg-overlay {
+    /* Optional overlay */
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(205,133,63,0.1)); 
+}
+
+.container-hero-block video[poster] { object-fit: cover; width: 100%; height: 100% }
+
+/* Desktop - height */
+@media (min-width:768px) { .hero-10 .background-video-content { height: 520px } }
+
+/* Mobiles - height  */
+@media (max-width:767px) { .hero-10 .background-video-content { height: 520px } }
+
+/* Desktop - spacing underneath */
+@media (min-width:768px) { .hero-10 { margin-bottom: 70px } }
+
+/* Mobiles - spacing underneath */
+@media (max-width:767px) { .hero-10 { margin-bottom: 40px } }
 
 /* ==== CONTAINER FOR SINGLE COLUMN OF CONTENT ==== */
 
@@ -966,3 +1004,4 @@ a.privacy-legal:hover {
     opacity: 1;
   }
 }
+
