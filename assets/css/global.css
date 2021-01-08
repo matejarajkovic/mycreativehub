@@ -471,7 +471,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 @media (min-width:768px) { .container-hero-block .background-video-content { height: 520px } }
 
 /* Mobiles - height  */
-@media (max-width:100%) { .container-hero-block .background-video-content { height: auto } }
+@media (max-width:767px) { .container-hero-block .background-video-content { height: 520px } }
 
 /* Desktop - spacing underneath */
 @media (min-width:768px) { .container-hero-block { margin-bottom: 70px } }
