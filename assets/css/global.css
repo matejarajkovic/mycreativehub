@@ -148,6 +148,7 @@ p, li { color: #fff; font-family: 'Shadows Into Light Two', cursive; }
 .flyout-menu { 
     position: fixed; display: block; 
     top: 72px; /* same height as menu bar */
+    font-family: 'Shadows Into Light Two', cursive;
     width: 320px; 
     max-height: 100%;
     height: 100%;
