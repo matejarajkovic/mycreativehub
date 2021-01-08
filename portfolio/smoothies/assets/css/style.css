@@ -266,7 +266,7 @@ p {
 	display: flex;
 	justify-content: space-between;
    flex-wrap: wrap;
-   background-color: #d1274b
+   background-color: #d1274b;
 }
 
 /* Desktop footer - inside padding  */
@@ -310,7 +310,8 @@ p {
 .container-footer .item-3 p,
 .container-footer .item-3 p i,
 .container-footer .item-3 p a {
-   color: #fff
+   color: #fff;
+   background-color: #d1274b;
 }
 
 .container-footer .item-3 h4 {

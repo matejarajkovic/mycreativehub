@@ -158,6 +158,7 @@
 /* container div for flyout menu content */
 .flyout-menu { 
     position: fixed; display: block; 
+    color: #d1274b; 
     top: 72px; /* same height as menu bar */
     width: 320px; 
     max-height: 300px;
