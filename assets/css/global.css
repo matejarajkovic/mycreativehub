@@ -468,16 +468,16 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .container-hero-block video[poster] { object-fit: cover; width: 100%; height: 100% }
 
 /* Desktop - height */
-@media (min-width:768px) { .hero-10 .background-video-content { height: 520px } }
+@media (min-width:768px) { .container-hero-block .background-video-content { height: 520px } }
 
 /* Mobiles - height  */
-@media (max-width:767px) { .hero-10 .background-video-content { height: 520px } }
+@media (max-width:767px) { .container-hero-block .background-video-content { height: 520px } }
 
 /* Desktop - spacing underneath */
-@media (min-width:768px) { .hero-10 { margin-bottom: 70px } }
+@media (min-width:768px) { .container-hero-block { margin-bottom: 70px } }
 
 /* Mobiles - spacing underneath */
-@media (max-width:767px) { .hero-10 { margin-bottom: 40px } }
+@media (max-width:767px) { .container-hero-block { margin-bottom: 40px } }
 
 /* ==== CONTAINER FOR SINGLE COLUMN OF CONTENT ==== */
 
