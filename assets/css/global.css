@@ -400,7 +400,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-hero-block.contact-page {
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url('https://drive.google.com/file/d/13SvsSV6D27BBAX2PYYdCIh1Hz6yeOb-J/view?usp=sharing');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url('../img/hero-contact-video.mp4');
 
 }
 
